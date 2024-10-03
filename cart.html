@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- link to css -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- box icons-->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <!-- nav -->
+         <div class="nav container">
+            <!--menu icon-->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!-- logo -->
+            <a href="index.html" class="logo">FREESOURCES</a>
+            <!-- nav bar-->
+             <div class="navbar"> 
+                <a href="#" class="nav-link">Free Resources</a>
+             </div>
+             <!-- cart icon -->
+              <a href="cart.html">
+                <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+              </a>
+         </div>
+     </header>
+     <!-- cart -->
+      <section class="cart-container container">
+        <a href="index.html" class="back-homepage">
+            <i class='bx bx-chevron-left' ></i>
+            <span>Back To Home</span>
+        </a>
+        <h2 class="cart-s-title">Shopping Cart</h2>
+        <div class="cart-box">
+            <div class="cart-data">
+                <div id="cartItems"></div>
+            </div>
+            <div class="cart-t">
+                <div id="cartTotal"></div>
+                <!-- Checkout and Chat buttons -->
+                <a href="javascript:void(0)" class="checkout-btn" onclick="generatePDF()">Checkout</a>
+                <button class="chat-btn" id="chat-btn" style="display:none;" onclick="goToChat()">Chat with Me for Support</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include jsPDF for PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+      <!-- link to JS -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
