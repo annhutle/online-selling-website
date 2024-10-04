@@ -253,7 +253,7 @@ const products = [
     },
     {
         id: 37,
-        title: "Videocopilot – Optical <br>Flares",
+        title: "Videocopilot – Optical Flares",
         price: 0,
         image:
           "https://editornghiepdu.vn/wp-content/uploads/2023/10/VC_OpticalFlares-600x600.jpg",
@@ -295,7 +295,7 @@ const products = [
     },
     {
         id: 43,
-        title: "Complete Film Emulation Bundle",
+        title: "Complete Film Emulation <br>Bundle",
         price: 0,
         image:
           "https://editornghiepdu.vn/wp-content/uploads/2023/10/mock1-4-2048x1365.jpg",
@@ -386,7 +386,7 @@ const products = [
     },
     {
         id: 56,
-        title: "Davinci Resolve Studio 18.5 (Win)",
+        title: "Davinci Resolve Studio <br>18.5 (Win)",
         price: 0,
         image:
           "https://editornghiepdu.vn/wp-content/uploads/2023/07/photo_2023-07-29_00-05-41.jpg",
@@ -400,7 +400,7 @@ const products = [
     },
     {
         id: 58,
-        title: "RE:Vision Effects Twixtor Pro for Ae",
+        title: "RE:Vision Effects Twixtor Pro <br>for Ae",
         price: 0,
         image:
           "https://editornghiepdu.vn/wp-content/uploads/2023/07/RFX-TWIXTOR7-TWP7VUNFR-1__34683-100x100.jpg",
@@ -463,14 +463,14 @@ const products = [
     },
     {
         id: 67,
-        title: "Video Copilot – FX Console V1.5",
+        title: "Video Copilot – FX <br>Console V1.5",
         price: 0,
         image:
           "https://editornghiepdu.vn/wp-content/uploads/2023/07/fx_Con_v3.jpg",
     },
     {
         id: 68,
-        title: "Trapcode Elements: FX Suite V2.1",
+        title: "Trapcode Elements: <br>FX Suite V2.1",
         price: 0,
         image:
           "https://editornghiepdu.vn/wp-content/uploads/2023/06/mock-259-2048x1365.jpg",
@@ -491,7 +491,7 @@ const products = [
     },
     {
         id: 71,
-        title: "Boom Library – FREE Death Whistle",
+        title: "Boom Library – FREE <br>Death Whistle",
         price: 0,
         image:
           "https://editornghiepdu.vn/wp-content/uploads/2023/06/BOOM_FREE_Death_Whistle_Packshot_Alpha_1000px-1.png",
@@ -505,7 +505,7 @@ const products = [
     },
     {
         id: 73,
-        title: "Organic Transition Golden Flares",
+        title: "Organic Transition <br>Golden Flares",
         price: 0,
         image:
           "https://editornghiepdu.vn/wp-content/uploads/2023/06/COVER_TRANSITION_FLARES.jpg",
